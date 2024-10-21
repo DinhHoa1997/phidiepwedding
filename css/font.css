@@ -1,15 +1,22 @@
 
 @font-face {
-    font-family:Arial-B;
-    src: url('fonts/SVN-Arial\ Bold.ttf');
+    font-family: fonttitle;
+    src: url('fonts/DancingScript-Medium.ttf');
     font-display: swap;
     font-weight: normal;
 }
 
 
 @font-face {
-    font-family: Arial;
+    font-family: fontmain;
     src: url('fonts/SVN-Arial\ 2.ttf');
+    font-display: swap;
+    font-weight: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: fontB;
+    src: url('fonts/SVN-Arial\ 2\ bold.ttf');
     font-display: swap;
     font-weight: normal;
     font-weight: normal;
