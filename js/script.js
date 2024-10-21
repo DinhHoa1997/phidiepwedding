@@ -1,10 +1,10 @@
 $(function () {
     $('#menu').mmenu();
-    // $('.nav li').hover(function () {
-    //     $('ul:first', this).stop().fadeIn();
-    // }, function () {
-    //     $('ul', this).hide();
-    // });
+    $('.nav li').hover(function () {
+        $('ul:first', this).stop().fadeIn();
+    }, function () {
+        $('ul', this).hide();
+    });
     $('#searchformmobile').click(function () {
         $('.box-search-mobile').stop().slideToggle();
         return false;
